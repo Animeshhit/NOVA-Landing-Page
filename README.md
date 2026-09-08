@@ -1,67 +1,71 @@
-# NOVA — Build better. Work smarter.
+# NOVA — The Intelligent Workspace
 
-A polished, responsive SaaS landing page for NOVA, an AI productivity platform that helps teams manage projects, automate repetitive work, and collaborate with clarity.
+**Live demo:** [https://nova-psi-green.vercel.app/](https://nova-psi-green.vercel.app/)
 
-## Technologies
+## Project Description
 
-- Next.js 16 App Router
-- React 19 + TypeScript
-- Tailwind CSS v4
-- Lucide React icons
-- Vercel Analytics
+NOVA is a marketing landing page for an AI-powered productivity platform aimed at teams who manage projects, automate repetitive work, and collaborate with less friction. The page walks visitors through NOVA's value proposition — from the hero pitch ("Build better. Work smarter.") through feature highlights, role-based use cases (Engineering, Product, Marketing, Design), a customer testimonial, transparent pricing tiers, and an FAQ — closing with a final call to action to start using the product for free.
+
+## Technologies Used
+
+- **Next.js** — React framework used to build and structure the site
+- **Vercel** — hosting and deployment
+- Modern CSS/component-based styling for layout, responsive design, and interactive UI elements (tabs, accordions, carousels)
 
 ## Features
 
-- Responsive navigation with mobile menu and smooth anchor links
-- Illustrated hero composition built with CSS shapes and motion
-- Six varied feature cards
-- Product dashboard mockup
-- Four-step animated-style workflow section
-- Statistics band, solution tabs, testimonial carousel, and pricing toggle
-- Accessible FAQ accordion
-- Demo modal, newsletter validation, and back-to-top control
-- Reduced-motion support through `prefers-reduced-motion`
+- **Hero section** with primary CTAs ("Start free" / "Watch demo") and a live product-style illustration
+- **Social proof bar** showing trusted teams and adoption stats (10K+ teams, 2M+ tasks automated, 98% satisfaction, 40% faster workflows)
+- **Feature grid** highlighting AI task automation, smart project spaces, collaboration tools, intelligent analytics, workflow orchestration, and an AI copilot
+- **Product walkthrough** panel showing a sample project dashboard with live project health metrics and AI-generated insights
+- **"The NOVA Method"** — a 4-step process (Connect → Plan → Automate → Deliver)
+- **Role-based tabs** (Engineering, Product, Marketing, Design) that swap in tailored messaging and visuals
+- **Customer testimonial carousel**
+- **Pricing section** with Monthly/Yearly toggle and three tiers: Starter (Free), Pro ($16/seat/mo), and Enterprise (Custom)
+- **FAQ accordion** answering common questions about the product
+- **Final CTA banner** and a full site footer with product, solutions, company links, and a newsletter signup
 
-## Getting started
+## Installation Instructions
 
 ```bash
-pnpm install
-pnpm dev
+# Clone the repository
+git clone https://github.com/Animeshhit/NOVA-Landing-Page/
+cd nova-landing-page
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+
+# Open http://localhost:3000 in your browser
 ```
 
-Open `http://localhost:3000` in your browser.
+To build for production:
 
-## Live demo
-
-Live demo URL: _Add deployment URL here_
+```bash
+npm run build
+npm start
+```
 
 ## Screenshots
 
-Screenshots can be captured from the responsive preview at desktop and mobile breakpoints.
+**Hero section**
+![Hero section](./screenshots/hero.png)
 
-## Design decisions
+**Feature grid**
+![Feature grid](./screenshots/features.png)
 
-NOVA uses a warm cream canvas, near-black typography, coral emphasis, and saturated editorial cards inspired by playful product-led SaaS brands. The visual system intentionally favors CSS-built product artifacts and illustrations so the page remains fast, editable, and easy to explain in an interview.
+**Product dashboard**
+![Product dashboard](./screenshots/dashboard.png)
 
-## Project structure
+**Pricing**
+![Pricing](./screenshots/pricing.png)
 
-- `app/page.tsx` — route entry point
-- `app/layout.tsx` — metadata, viewport, and global shell
-- `app/globals.css` — design tokens, responsive layout, illustrations, motion, and accessibility styles
-- `components/nova-landing.tsx` — reusable landing page sections and interactive state
+## Live Demo URL
 
-## Animation approach
+🔗 [https://nova-psi-green.vercel.app/](https://nova-psi-green.vercel.app/)
 
-Motion is lightweight and purposeful: CSS transforms power hero floating elements and hover states, while React state handles modal, tabs, accordion, carousel, and billing transitions. Non-essential motion is disabled or reduced for users who prefer reduced motion.
+## AI Tools Used
 
-## Responsive approach
-
-Layouts use mobile-first breakpoints with true structural changes: multi-column editorial sections collapse into readable stacks, feature and pricing cards become single-column flows, and the full navigation becomes a touch-friendly menu.
-
-## Accessibility and performance
-
-The page uses semantic sections, heading hierarchy, labeled controls, keyboard-friendly buttons, meaningful link text, focusable interactive elements, and accessible accordion state. It avoids heavy image/video dependencies, uses CSS transforms for animation, and keeps all visual artifacts local to the component stylesheet.
-
-## AI tools used
-
-Built with v0 using the supplied NOVA assignment and Clay-inspired design analysis as references. The implementation was reviewed in a live browser at desktop and mobile viewports and validated with a production build.
+This project was built with the help of AI website builders — **v0**, **Lovable**, and **Bolt** — for rapid layout generation, component scaffolding, and UI iteration.
