@@ -54,7 +54,7 @@ npm start
 ![Hero section](./screenshots/hero.png)
 
 **Feature grid**
-![Feature grid](./screenshots/features.png)
+![Feature grid](./screenshots/feature.png)
 
 **Product dashboard**
 ![Product dashboard](./screenshots/dashboard.png)
