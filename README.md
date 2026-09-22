@@ -66,6 +66,3 @@ npm start
 
 🔗 [https://nova-psi-green.vercel.app/](https://nova-psi-green.vercel.app/)
 
-## AI Tools Used
-
-This project was built with the help of AI website builders — **v0**, **Lovable**, and **Bolt** — for rapid layout generation, component scaffolding, and UI iteration.
